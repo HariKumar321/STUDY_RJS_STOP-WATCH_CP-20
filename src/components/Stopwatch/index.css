@@ -1,0 +1,77 @@
+/* Write CSS here */
+* {
+  font-family: 'Roboto';
+}
+
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  }
+}
+
+.heading {
+  font-size: 34px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.timer-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.timer-text {
+  font-size: 22px;
+  color: #333333;
+  margin-left: 8px;
+}
+
+.countdown {
+  font-size: 38px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.btns-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  margin: 6px;
+  width: 80px;
+}
+
+.green-btn {
+  background-color: #1db05f;
+}
+
+.red-btn {
+  background-color: #ef0d36;
+}
+
+.yellow-btn {
+  background-color: #eaa800;
+}
